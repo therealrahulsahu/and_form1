@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A1">
+
+    <TextView
+        android:id="@+id/roll_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="98dp"
+        android:text="Roll No. :" />
+
+    <TextView
+        android:id="@+id/name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/roll_id"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="151dp"
+        android:text="Name :" />
+
+    <TextView
+        android:id="@+id/phone_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/roll_id"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="214dp"
+        android:text="Phone :" />
+
+    <TextView
+        android:id="@+id/email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/roll_id"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="220dp"
+        android:text="Email :" />
+
+    <EditText
+        android:id="@+id/et_roll_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/roll_id"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:inputType="textPersonName|number"
+         />
+
+    <EditText
+        android:id="@+id/et_name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/name_id"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/et_phone_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/phone_id"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/et_email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/email_id"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt1_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="10dp"
+        android:text="Enter" />
+
+    <TextView
+        android:id="@+id/password_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/name_id"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="172dp"
+        android:text="Password :" />
+
+    <EditText
+        android:id="@+id/et_password_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/password_id"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="textPassword"
+         />
+</RelativeLayout>
